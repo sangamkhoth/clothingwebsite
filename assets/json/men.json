@@ -1,0 +1,76 @@
+[
+  {
+      "id": 1,
+      "name":"  olive green sweatshirt",
+      "price": 500,
+      "image": "/images/mwear/m01.jpg"
+  },
+  {
+      "id": 2,
+      "name":" beige sweatshirt",
+      "price": 250,
+      "image": "/images/mwear/m2.jpg"
+  },
+  {
+      "id": 3,
+      "name":" brown sweatshirt",
+      "price": 290,
+      "image": "/images/mwear/m4.jpg"
+  },
+  {
+    "id": 4,
+    "name":" brown tshirt",
+    "price": 290,
+    "image": "/images/mwear/m7.jpg"
+},
+  {
+      "id": 5,
+      "name":" olive green shirt",
+      "price": 200,
+      "image": "/images/mwear/m9.jpg"
+  },
+  {
+      "id": 6,
+      "name":" pink shirt",
+      "price": 300,
+      "image": "/images/mwear/m11.jpg"
+  },
+  {
+      "id": 7,
+      "name":" purple shirt",
+      "price": 200,
+      "image": "/images/mwear/m13.jpg"
+  },
+  {
+      "id": 8,
+      "name":" sky blue shirt ",
+      "price": 200,
+      "image": "/images/mwear/m15.jpg"
+  },
+  {
+      "id": 9,
+      "name":"van gogh shirt",
+      "price": 200,
+      "image": "/images/mwear/m17.jpg"
+  },
+  {
+    "id": 10,
+    "name":"beige sweatpants",
+    "price": 200,
+    "image": "/images/mwear/m19.jpg"
+},
+ {
+      "id": 11,
+      "name":"Brown sweatpants",
+      "price": 200,
+      "image": "/images/mwear/m21.jpg"
+  },
+     {
+      "id": 12,
+      "name":"Black sweatpants",
+      "price": 200,
+      "image": "/images/mwear/m23.jpg"
+  }
+  
+      
+]

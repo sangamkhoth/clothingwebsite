@@ -1,0 +1,96 @@
+[
+  {
+      "id": 1,
+      "name":"  Black shirt",
+      "price": 500,
+      "image": "/images/formalshirt/i1.jpg"
+  },
+  {
+      "id": 2,
+      "name":" White shirt",
+      "price": 250,
+      "image": "/images/formalshirt/i3.jpg"
+  },
+  {
+      "id": 3,
+      "name":" Pink shirt",
+      "price": 290,
+      "image": "/images/formalshirt/i5.jpg"
+  },
+  {
+      "id": 4,
+      "name":" beige shirt",
+      "price": 200,
+      "image": "/images/formalshirt/i7.jpg"
+  },
+  {
+      "id": 5,
+      "name":" White shirt",
+      "price": 300,
+      "image": "/images/formalshirt/i9.jpg"
+  },
+  {
+      "id": 6,
+      "name":" Grey shirt",
+      "price": 200,
+      "image": "/images/formalshirt/i11.jpg"
+  },
+  {
+      "id": 7,
+      "name":" olive green shirt",
+      "price": 200,
+      "image": "/images/formalshirt/i13.jpg"
+  },
+  {
+      "id": 8,
+      "name":"waistcoat",
+      "price": 200,
+      "image": "/images/wformal/w1.jpg"
+  },
+  {
+    "id": 9,
+    "name":"darkblue stripped cost",
+    "price": 200,
+    "image": "/images/wformal/w3.jpg"
+},
+ {
+      "id": 10,
+      "name":"dark blue skirt",
+      "price": 200,
+      "image": "/images/wformal/w5.jpg"
+  },
+     {
+      "id": 11,
+      "name":"Black skirt",
+      "price": 200,
+      "image": "/images/wformal/w7.jpg"
+  },
+  {
+    "id": 12,
+    "name":"dark blue oversized coat",
+    "price": 200,
+    "image": "/images/wformal/w9.jpg"
+},
+   {
+  "id": 13,
+  "name":"green coat",
+  "price": 200,
+  "image": "/images/wformal/w12.jpg"
+   },
+
+   {
+    "id": 14,
+    "name":"black coat",
+    "price": 200,
+    "image": "/images/wformal/w14.jpg"
+     },
+
+     {
+      "id": 15,
+      "name":"black striped coat",
+      "price": 200,
+      "image": "/images/wformal/ww.jpg"
+       }
+   
+      
+]

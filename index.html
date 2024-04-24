@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet"> -->
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <!-- <link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 
+'apple-touch-icon-retina.png')}"> -->
+    <title>SANGAM - offical site</title>
+</head>
+<body>
+
+    <nav id="navbar" class="navbar">
+        <!-- <ul>
+            <li><i class="fa-solid fa-bars" id="menu_icon"></i></li>
+            <li><a href="#" class="nav-hid">Menu</a></li>
+            <li><i class="fa-solid fa-magnifying-glass" id="search_icon"></i></li>
+            <li><a href="#" class="nav-hid">Search</a></li>
+        </ul> -->
+        <a href="/" class="brand">Sangam</a>
+        <ul>  
+            <li><a href="login">log in</a></li>
+        </ul>
+    </nav>
+
+    <section class="videobg" id="video1">
+        <video src="/HeroPages/v1.mp4" type="video/mp4" autoplay loop muted plays-inline class="video" ></video>
+        <h2>Formal Wear</h2>
+        <button> <a href="formal">Discover the Collection</a></button>
+    </section>
+      
+    <section class="imagebg" id="image2">
+        <img src="/HeroPages/v2.jpg" alt="img1"  class="video" >
+        <h2>Men Wear</h2>
+        <button> <a href="men">Discover the Collection</a> </button>
+    </section>
+      
+    <section class="imagebg" id="image3">
+        <img src="/HeroPages/v3.jpg" alt="img2" class="video" >
+        <h2>Women wear</h2>
+        <button> <a href="women">Discover the Collection</a></button>
+    </section>
+    
+<!-- 
+    
+    <section class="links">
+        <hr class="hr">
+        <div class="container">
+            <div class="column">
+              <div class="cell cell-head">HELP</div>
+              <div class="cell"><a href="#" class="links">You can <span>call</span> or <span>email us</span>.</a></div>
+              <div class="cell"><a href="#" class="links">FAQ's</a></div>
+              <div class="cell"><a href="#" class="links">Product Care</a></div>
+              <div class="cell"><a href="#" class="links">Stores</a></div>
+            </div>
+            
+    </section> -->
+
+    <hr class="hr">
+
+    <footer class="footer">
+        
+        <a href="#" class='language'><i class="fa-solid fa-globe globe-icon" ></i><span>ENGLISH (INTL)</span></a>
+        <ul>
+            <li><a href="https://www.google.com/maps/place/Division+of+Admissions,+LPU/@31.253785,75.704277,9z/data=!4m6!3m5!1s0x391a5f66540a278b:0x25064d351ca33204!8m2!3d31.2527142!4d75.7047836!16s%2Fg%2F11c1ptnph7?hl=en-US&entry=ttu">Sitemap</a></li>
+            <li><a href="#">Legal & privacy</a></li>
+            <li><a href="bamisha300@gmail.com">Email</a></li>
+        </ul>
+    </footer>
+
+    <div class="last-logo">Sangam</div>
+
+
+    
+<!-- 
+    <div class="accordian-container">
+        <hr class="hr-hid">
+        <button class="accordion">Help</button>
+            <div class="panel">
+
+                <a href="#">You can <span>call</span> or <span>email us</span>.</a>
+                <a href="#">FAQ's</a>
+                <a href="#">Product Care</a>
+                <a href="#">Stores</a>
+
+            </div>
+        
+        
+            <hr class="hr-hid">
+    </div> -->
+    
+
+    <!-- <footer class="mobile-footer">
+
+        <ul>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Legal & privacy</a></li>
+            <li><a href="#">Cookies</a></li>
+        </ul>
+
+        <div class="contain"><a href="#" class='mobile-language'><i class="fa-solid fa-globe globe-icon" ></i><span>ENGLISH (INTL)</span></a></div>
+        
+    </footer> -->
+
+
+
+
+
+    <script>
+        var lastScrollTop = 0;
+        navbar = document.getElementById("navbar");
+        window.addEventListener("scroll", function () {
+        var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > lastScrollTop) {
+            navbar.style.top = "-100px";
+        } else {
+            navbar.style.top = "0";
+            if (scrollTop === 0) {
+                navbar.classList.remove("scrolled"); 
+            } else {
+                navbar.classList.add("scrolled"); 
+                }
+            }
+        lastScrollTop = scrollTop;
+        }
+        );
+
+
+
+//Accordian
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                var panel = this.nextElementSibling;
+                var isActive = this.classList.contains("active");
+
+                // Close all accordion panels
+
+                for (var j = 0; j < acc.length; j++) {
+                    var otherPanel = acc[j].nextElementSibling;
+                    if (otherPanel !== panel) {
+                        otherPanel.style.maxHeight = null;
+                        acc[j].classList.remove("active");
+                    }
+                }
+
+                if (isActive) {
+                    this.classList.remove("active");
+                    panel.style.maxHeight = null;
+                } else {
+                    this.classList.add("active");
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                }
+            );
+        }
+
+
+    </script>
+</body>
+</html>

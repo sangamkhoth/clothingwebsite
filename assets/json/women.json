@@ -1,0 +1,70 @@
+[
+  {
+      "id": 1,
+      "name":"  Black sweatpants",
+      "price": 500,
+      "image": "/images/wwear/f2.jpg"
+  },
+  {
+      "id": 2,
+      "name":" Brown sweatpants",
+      "price": 250,
+      "image": "/images/wwear/f4.jpg"
+  },
+  {
+      "id": 3,
+      "name":" grey sweatpants",
+      "price": 290,
+      "image": "/images/wwear/f6.jpg"
+  },
+  {
+    "id": 4,
+    "name":" Brown denim skirt",
+    "price": 290,
+    "image": "/images/wwear/f8.jpg"
+},
+  {
+      "id": 5,
+      "name":" black denim skirt",
+      "price": 200,
+      "image": "/images/wwear/f10.jpg"
+  },
+  {
+      "id": 6,
+      "name":" white travis scott tshirt",
+      "price": 300,
+      "image": "/images/wwear/f12.jpg"
+  },
+  {
+      "id": 7,
+      "name":"black travis scott tshirt",
+      "price": 200,
+      "image": "/images/wwear/f14.jpg"
+  },
+  {
+      "id": 8,
+      "name":" brown travis scott tshirt ",
+      "price": 200,
+      "image": "/images/wwear/f15.jpg"
+  },
+  {
+      "id": 9,
+      "name":"blue full sleeve top",
+      "price": 200,
+      "image": "/images/wwear/f18.jpg"
+  },
+  {
+    "id": 10,
+    "name":"white full sleeve top",
+    "price": 200,
+    "image": "/images/wwear/f20.jpg"
+},
+ {
+      "id": 11,
+      "name":"green full sleeve top",
+      "price": 200,
+      "image": "/images/wwear/f24.jpg"
+  }
+  
+      
+]
